@@ -5,3 +5,16 @@
 
 greeting()
 
+def asterisk_cheating():
+    print ("**********")
+    print ("********* ")
+    print ("********  ")
+    print ("*******   ")
+    print ("******    ")
+    print ("*****     ")
+    print ("****      ")
+    print ("***       ")
+    print ("**        ")
+    print ("*         ")
+
+asterisk_cheating()
