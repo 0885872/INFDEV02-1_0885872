@@ -5,5 +5,3 @@
 
 greeting()
 
-def asterisk():
-    for(x=o, x < 10, x++):
