@@ -1,6 +1,6 @@
 ﻿def greeting():
 	print ("hi");
-	name = input('Hello, what is your name?')
+	name = raw_input('Hello, what is your name?')
 	print ("Hello " + name)
 
 greeting()
