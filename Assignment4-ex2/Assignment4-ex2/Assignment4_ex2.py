@@ -10,29 +10,67 @@ def intro():
     print "Hello ", player1
     player2 = raw_input("Player 2, what's your name? ")
     print "Hello ", player2
-    playGame()
+    gamePlay()
 
-def playGame():
-    first = int(raw_input("Player 1, press 1(Rock), 2(Paper) of 3(Scissors) "))
-    second = int(raw_input("Player 2, press 1(Rock), 2(Paper) of 3(Scissors) "))
-    winCheck()
-    
-    for x < 1
-    if (first == 1 & second == 2):
-        secondScore = secondScore + 1
-        print "First has rock, second has paper. Second wins!"
-    elif (first == 1 & second == 3):
-        firstScore = firstScore + 1
-        print "First has Rock, second has Scissors. First wins!"
-    elif (first == 2 & second == 1):
-        firstScore = firstScore + 1
-        print "First has paper, second has rock. First wins!"
-    elif (first == 2 & second == 1):
-        firstScore = firstScore + 1
-        print "First has paper, second has rock. First wins!"
-    
-    
+def gamePlay():
 
+     decision1 = raw_input("Player 1: Rock, paper or scissors?").lower()
+     decision2 = raw_input("Player 2: Rock, paper or scissors?").lower()
+     for x in range(0,1):
+        if (decision1 == "rock" and decision2 == "rock"):
+            print "It's a tie!"
+        elif(decision1 == "rock" and decision2 == "paper"):
+            print "Player 2 wins!"
+        elif (decision1 == "rock" and decision2 == "scissors"):
+            print "Player 1 wins!"
+        elif (decision1 == "rock" and decision2 == "lizard"):
+            print "Player 1 wins!"
+        elif (decision1 == "rock" and decision2 == "spock"):
+            print "Player 2 wins!"
+        elif (decision1 == "paper" and decision2 == "rock"):
+           print "Player 1 wins!"
+        elif (decision1 == "paper" and decision2 == "paper"):
+            print "It's a tie!"
+        elif (decision1 == "paper" and decision2 == "scissors"):
+            print "Player 2 wins!"
+        elif (decision1 == "paper" and decision2 == "lizard"):
+            print "Player 2 wins!"
+        elif (decision1 == "paper" and decision2 == "spock"):
+            print "Player 1 wins!"
+        elif (decision1 == "scissors" and decision2 == "rock"):
+            print "Player 2 wins!"
+        elif (decision1 == "scissors" and decision2 == "paper"):
+            print "Player 1 wins!"
+        elif (decision1 == "scissors" and decision2 == "scissors"):
+            print "It's a tie!"
+        elif (decision1 == "scissors" and decision2 == "lizard"):
+            print "Player 1 wins!"
+        elif (decision1 == "scissors" and decision2 == "spock"):
+            print "Player 2 wins!"
+        elif (decision1 == "lizard" and decision2 == "rock"):
+            print "Player 2 wins!"
+        elif (decision1 == "lizard" and decision2 == "paper"):
+            print "Player 1 wins!"
+        elif (decision1 == "lizard" and decision2 == "scissors"):
+            print "Player 2 wins!"
+        elif (decision1 == "lizard" and decision2 == "lizard"):
+            print "It's a tie!"
+        elif (decision1 == "lizard" and decision2 == "spock"):
+            print "Player 1 wins!"
+        elif (decision1 == "spock" and decision2 == "rock"):
+            print "Player 1 wins!"
+        elif (decision1 == "spock" and decision2 == "paper"):
+            print "Player 2 wins!"
+        elif (decision1 == "spock" and decision2 == "scissors"):
+            print "Player 1 wins!"
+        elif (decision1 == " spock" and decision2 == "lizard"):
+            print "Player 2 wins!"
+        elif (decision1 == "spock" and decision2 == "spock"):
+            print "It's a tie!"
+        else:
+            print "You have entered an invalid answer, please try again"
+
+intro()
 
 
     
