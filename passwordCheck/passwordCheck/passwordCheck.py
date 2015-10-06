@@ -11,7 +11,8 @@ elif (password.isupper or password.isspace or password.isdigit) and password == 
         #"""create a set containing all your invalid characters, then take the intersection of it and password (in other words, a set containing all unique characters that exist in both the set and the password string). 
         #If there are no matches, the resulting set will be empty, and thus evaluate as False, otherwise it will evaluate as True and print the message."""
 
-elif password == ('[~!@#$%^&*()_+{}":;\']+$'):
+elif password == '!' or password == '@' or password == '#' or password == '$' or password == '%' or password == '^' or password == '&' or password == '*' or password == '-' or password == '_':
+#('[~!@#$%^&*()_+{}":;\']+$'):
     print "Password contains special characters. Password is medium"
 elif password.isupper or password.isspace or password.isdigit:
     print "Password contains uppercase, space or digits. Password is medium."

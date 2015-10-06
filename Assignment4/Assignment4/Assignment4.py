@@ -19,11 +19,11 @@ elif(fahrenheit > zero_point):
 
 celsius = float(raw_input("Amount(Celcius) to be converted : "))
 zero_point_celsius = -273,14
-if(celsius > zero_point_celsius):
+if(celsius < zero_point_celsius):
     kelvin = celsius + 273.15
     kelvin = round(kelvin, 2)
     print "Kelvin: ", kelvin
-elif(celsius < zero_point_celsius):
+elif(celsius > zero_point_celsius):
     print "Invalid number"
 
 
