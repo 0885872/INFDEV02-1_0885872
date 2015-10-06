@@ -14,23 +14,23 @@
 
 asterisk_cheating()"""
 
-def asterisk():
-    x = 0
-    while x != 10:
-        print ("*" * x)
-        x+=1
+
+x = 0
+while x != 10:
+    print ("*" * x)
+    x+=1
 
 
-asterisk()
 
-def asteriskTwo():
-    for y in range (0, 10):
-        print((" " * y) + ("*" * y) + (" " * y))
 
-asteriskTwo()
+
+for y in range (0, 10):
+    print((" " * y) + ("*" * y) + (" " * y))
+
+
 z = 0
-def asteriskThree():
-    for z in range (0, 10):
+
+for z in range (0, 10):
         asterisk[
         print 
 
